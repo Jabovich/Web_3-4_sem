@@ -1,0 +1,97 @@
+@media only screen and (max-width: 992px) {
+    .wrapper {
+
+        max-width: 100%;
+
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .name-compani {
+        margin-left: 0;
+
+    }
+
+    .header .logo {}
+
+    .number {
+        margin-right: 0;
+
+    }
+
+    .header-text {
+        margin-left: 0;
+
+    }
+
+    .order {
+        margin-right: 10px;
+    }
+
+    .section-three .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .blue_section {
+        background: none;
+    }
+
+    .section-three .title {
+        font-size: 2.7em;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+
+    .form-container {
+        text-align: center;
+        width: 350px;
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+
+    .container .promo {
+        display: contents;
+
+    }
+
+    .section-three .title {
+        padding: 0 20px;
+        font: 2em 'Roboto', sans-serif;
+        font-weight: 600;
+        box-sizing: border-box;
+    }
+
+    .promo .blue_section {
+        background-color: #0000FF;
+        float: -1;
+    }
+
+    .img-cards {
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        flex-basis: 49%;
+    }
+
+    .container .promo {}
+
+    .section-three .title {
+        display: none;
+        text-align: center;
+        border: #0000FF solid;
+        width: max-content;
+        margin:
+    }
+
+    .none {
+        display: block;
+    }
+
+    .form-container {}
+}
